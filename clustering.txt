@@ -1,0 +1,46 @@
+clustering Validation:
+
+
+Cluster Evaluation
+cluster stability
+
+Measuring cluster Quality:
+
+        External Measures
+            It is supervised. We employ a criteria not inherent to the Dataset
+            Compare clustering against prior or expert-specified Knowledge using
+            certain clustering quality measure.
+                Cluster Homogenity, The purer the better
+                Cluster Completeness
+            Matching used External Measures:
+                Purity
+                Maximum Matching, F-Measure
+            Entropy-Based Measures:
+                Conditional Entropy
+                Normalised Mutual Information
+                Variation of Information
+            Pair-wise Measures:
+                TP,TN,FP,FN
+                Jaccard Coeff, Rand Statistic, Howlkes-mallow Measure
+            Correlation Measures:
+                Discretised Huber Static
+                Normalised Discretised Huber Static    
+
+        Internal Measures
+            BetaCV Measure
+                A trade off intra-cluster compactness and inter cluster seperation
+            Normalised cut 
+                The higer the Normalised Value the better the clustering
+            Modularity
+                It measures the difference between the observed and expected fraction 
+                of weights on edges within clusters
+                The smaller the value the better the clustering-- The intra-cluster distances
+                are lower than expected.
+
+        Relative Measures
+
+            Directly Compare  different clusterings, usually those obtained via different
+            parameter settings for the same algorithm
+
+    
+        
